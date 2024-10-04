@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <title>Dijkstra's Algorithm</title>
+    <meta name="author" content="Daniel Wang" />
+    <link rel="stylesheet" href="style.css" />
+ 
+</head>
+<body>
+
+    <div class="header">
+        <h1>Dijkstra's Algorithm</h1>
+    </div>
+
+    <div id="main-content">
+        <h2 class="section-title">Overview</h2>
+        <p>Dijkstra's algorithm is a widely-used algorithm for finding the shortest path between nodes in a graph.</p>
+        <body>        
+            <h2>Algorithm Steps</h2>
+            <ol>
+                <li>Initialize the distance values of all nodes to infinity and the source node to 0.</li>
+                <li>Mark all nodes as unvisited.</li>
+                <li>For the current node, consider all of its neighbors and calculate their tentative distances through the current node. Compare the newly calculated tentative distance to the current assigned value and assign the smaller one.</li>
+                <li>Mark the current node as visited.</li>
+            </ol>
+        
+            <h2>Important Tips</h2>
+            <ul>
+                <li>Ensure that the graph does not contain negative-weight edges for Dijkstra's algorithm to work correctly.</li>
+                <li>Use a priority queue to efficiently select the node with the smallest tentative distance in each iteration.</li>
+                <li>Understand the difference between Dijkstra's algorithm and other pathfinding algorithms like Bellman-Ford.</li>
+            </ul>
+        
+            <img src="dijkstra_algorithm.png" alt="Dijkstra's Algorithm Visualization">
+        
+            <h2>Learn More</h2>
+            <p>For more information, visit the <a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm">Wikipedia page on Dijkstra's Algorithm</a>.</p>
+        
+        </body>
+
+    </div>
+
+</body>
+</html>
+
+
+
+
+</html>

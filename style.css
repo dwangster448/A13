@@ -1,0 +1,41 @@
+/* style.css */
+
+/* Element Name Selector */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Class Name Selector */
+.header {
+    border-radius: 2cm;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-shadow: #333;
+}
+
+/* ID Selector */
+#main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Additional Styles */
+h1 {
+    color: #4285f4;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
